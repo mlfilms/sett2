@@ -1,0 +1,24 @@
+Git Basic Commands
+
+------------ Making changes ------------ 
+
+git add "file name"   - Stage a changed file for commit
+git add .             - Stage all changed files for commit
+git commit -m " "     - Commit changes with commit message
+git push              - Push local changes to the repo (will make changes for everyone)
+
+
+------------ Pulling Changes ------------ 
+
+git checkout          - Pull latest version of selected branch (needed before you can push your own changes)
+git fetch             - Downloads change history 
+git pull              - Downloads change history and incorporates changes into checked out branch
+git branch "name"     - Creates new branch with "name"
+git branch            - Lists all local branches in the current repository 
+git branch -d         - Deletes current branch 
+git merge "name"      - Combines branch "names" history into current branch
+
+
+------------ Check out repository into curent folder ------------ 
+
+git clone "url"       - Clones repository to git's root folder 
